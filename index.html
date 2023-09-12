@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Title</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">Introduction</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Overview of Studies</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Work Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Key Skills</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">X</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Liam Corbet</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>Introduction</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This following is a small Geoportfolio I have created, constructed as part of a Professional Practice course undertaken at RMIT University in 2023
+		<p>
+		The contents of this Geoportfolio include:
+		</p>
+		<ul>
+			<li>About myself</li>
+			<li>Recent geospatial-related work and projects undertaken at RMIT</li>
+			<li>Recent work experience in the relevant industry</li>
+			<li>Summary of main geospatial skills and experiences</li>
+		</ul>
+		<p>
+		About myself:
+		</p>
+		<p>
+		I completed a Victorian Certificate of Education (VCE) in 2019, and went on to study a Bachelor of Science (Geospatial Science [Hons])
+		at RMIT. I have a significant interest in maps and other navigational products, which was the main driver of my decision to take on this
+		program. The program I am studying covers many different subjects, including:
+		</p>
+		<ul>
+			<li>Surveying</li>
+			<li>Geographical Information Systems (GIS)</li>
+			<li>Cartography</li>
+			<li>Statistics</li>
+			<li>Remote Sensing</li>
+			<li>Photogrammetry</li>
+			<li>Python Programming</li>
+		</ul>
+		<p>
+		My personal hobbies include:
+		</p>
+		<ul>
+			<li>Cycling</li>
+			<li>Public Transport Travel</li>
+			<li>Golf</li>
+			<li>Swimming</li>
+			<li>Water Polo</li>
+			<li>Enjoying a crunchy, juicy, Grill'd burger</li>
+		</ul>
+	<img src="IMG_8544.jpg" class="IMG_8544"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Overview of Studies</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Cartography can be defined by the presentation of a final map or map product. It is essentially the final step
+		in the typical map-making process, following the data collection and analysis phases. The following is a map I created
+		from scratch, detailing the 8 of Melbourne's Sandbelt Golf Courses.
+	</div>	
+	<div class="bar"><h3>Map of Melbourne Sandbelt Golf Course Locations</h3></div>
+	<img src="Final_Map2_s3841581.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Applied Geospatial Techniques</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Applied Geospatial Techniques is a course undertaken during the first year of the Geospatial Science Program. It aims to highlight
+		the three phases of a typical map-making process in sequence, and to develop the required skills required to complete each.
+		<p>
+		The phases in sequence are:
+		</p>
+		<ul>
+		<li>Surveying component</li>
+		<li>GIS component</li>
+		<li>Cartography component</li>
+		</ul>
+		<p>
+		<b>Surveying component</b>
+		<br>
+		The surveying component involves the practical collection of relevant survey data. It involves use of various surveying tools, such
+		as total stations and optical levels to collect numerous different types
+		of data, from spot heights, to tree locations, to pathways, roads, and terrain variations
+		</p>
+		<p>
+		<b>GIS component</b>
+		<br>
+		The GIS component is where the previously collected data is imported into GIS software for manipulation and geoprocessing
+		Actions involved during the GIS component include addition of further contour lines, placement for construction of new physical
+		features, and creation of a color-coded model outlining terrain variation
+		</p>
+		<p>
+		<b>Cartography component</b>
+		<br>
+		The cartography component involves the presentation of all data and associate information gathered in a user-friendly format. This
+		mostly involves presentation of data and informartion in a navigational map product, complete with the map itself, formal title, legend
+		and icons, verbal description, and any other information relevant to the user.
+		</p>
+		<p>
+		The following screenshots provide a sneak peak of what is involved in each phase
+		</p>
+	</div>
+	<div class="bar"><h3>Topographic survey plan (Surveying component)</h3></div>
+	<div class="agt-info">
+		<p>
+		<b>Description</b>
+		<br>
+		A survey plan complete with tree locations, roads and pathways, spot heights, and survey marks
+		</p>
+	</div>
+	<img src="GEOM2083 Applied Geospatial Techniques Portfolio_s3841581.jpg" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Color-coded 3D terrain model and proposed amphitheatre (GIS component)</h3></div>
+	<div class="agt-info">
+		<p>
+		<b>Description</b>
+		<br>
+		A colour-coded model representing change in terrain accross the survey site, where darker colours represent higher terrain. Also
+		included are proposed new access pathways and position for amphitheatre seating
+		</p>
+	</div>
+	<img src="Final_3D.jpg" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<img src="3DModel.jpg" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Final map (Cartography component)</h3></div>
+	<div class="agt-info">
+		<p>
+		<b>Description</b>
+		<br>
+		A "user-friendly" presentation of the work from the two previous screenshots. Completed from blank with imported GIS data
+		in Adobe Illustrator
+		</p>
+	</div>
+	<img src="Deep_Rock_Map2.png" class="agt-carto"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+		<p>
+
+		</p>
+        <span class="title-ul">Work Experience</span>
+    </div>
+	<div class="academic-intro">
+		The following section outlines my 12-month work experience placement that I undertook in 2022-23
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Cardinia Shire Council</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="Cardinia-Shire.jpg" class="company-logo">
+	<div class="job-title">Asset Management Role</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">June 2022 - June 2023</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		My time at Cardinia Shire Council mostly comprised completion of a "Polygonization Project".
+		<p>
+		This involved making corrections to the Asset Management Department's "Asset road network", which included correction
+		of polygons representing roads, as well as corresponding polylines representing road centre lines.
+		</p>
+		<p>
+		<b>Why is this important?</b>
+		<br>
+		Upgrades and other constructions are constantly occuring accross our roads, from road widening, to duplication, to construction
+		of new roads, to upgrading of intersections, you name it. When this happens, the road network, owned and operated internally by
+		the Council's Asset Management Department, must be manually corrected to adapt to these changes and keep up to the continuously
+		upgrading road system.
+		</p>
+		<p>
+		In the following screenshot of the project, note that the road polygon (pink) and the road polylines (yellow lines) do not
+		match up exactly with the road on the satellite imagery map. My job was to re-adjust the placements of the polygon and polyline
+		so as to better reflect the road's true geographical position.
+		</p>
+	</div>
+	<img src="CSC.png" class="am-work">
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="QGIS-icon.png" class="iconimages"></td>
+				<td>QGIS</td>
+            </tr>
+            <tr>
+                <td><img src="cartography-icon.png" class="iconimages"></td>
+				<td>Cartography and map creation</td>
+                <td><img src="adobe-illustrator.png" class="iconimages"></td>
+				<td>Adobe Illustrator</td>
+            </tr>
+            <tr>
+                <td><img src="rs-satellite-icon.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="drone-icon.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+            <tr>
+                <td><img src="web-design.png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="webgis.png" class="iconimages"></td>
+				<td>Web GIS</td>
+            </tr>
+            <tr>
+                <td><img src="python-icon.png" class="iconimages"></td>
+				<td>Python Programming</td>
+                <td><img src="sql.png" class="iconimages"></td>
+				<td>SQL Database Management</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Code</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+			<li>GEOM2077 Cartography 1 (Year 1, Semester 1)</li>
+            <li>GEOM2083 Applied Geospatial Techniques (Year 1, Semester 2)</li>
+            <li>GEOM2079 Cartography 2 (Year 2, Semester 1)</li>
+			<li>GEOM2163 Geospatial Science Work Experience 1 (Year 3, Semester 2)</li>
+			<li>GEOM2164 Geospatial Science Work Experience 2 (Year 4, Semester 1)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun (Course Co-ordinator of GEOM2116 Professional Practice)</li>
+            <li>Nicholas Lee (Past Student and current tutor of GEOM2116 Professional Practice)</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Stockio - Flaticon</a></th>
+            <th><img src="sql.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by monkik - Flaticon</a></th>
+            <th><img src="cartography-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe illustrator icons created by Freepik - Flaticon</a></th>
+            <th><img src="adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a></th>
+            <th><img src="python-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a></th>
+            <th><img src="web-design.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by wanicon - Flaticon</a></th>
+            <th><img src="webgis.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Smashicons - Flaticon</a></th>
+            <th><img src="drone-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Freepik - Flaticon</a></th>
+            <th><img src="rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">X icons created by Bogdan Rosu - Flaticon</a></th>
+            <th><img src="twitter.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Odeo as part of undergraduate course GEOM2116 Professional Practice
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Residential Address
+					<br>46 Fraser Street, Richmond VIC 3121</th>
+				<th>
+					Email address:
+					<br><a href = "liam.corbet46@gmail.com">liam.corbet46@gmail.com</a>
+				</th>
+				<th>Mobile:
+					<br>0497 972 185
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
